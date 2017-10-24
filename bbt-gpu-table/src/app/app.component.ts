@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GpuTableComponent } from './gpu-table/gpu-table.component';
 
 @Component({
   selector: 'bbt-root',

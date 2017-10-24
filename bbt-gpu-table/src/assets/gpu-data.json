@@ -1,202 +1,203 @@
-{data: [
-	{
-		model: RX Series,
-		type: 580,
-		memory: 8GB,
-		power: 170,
-		ethHash: 31.2,
-		baseCost: 269.00,
-	},
-	{
-		model: RX Series,
-		type: 580,
-		memory: 4GB,
-		power: 170,
-		ethHash: 30.4,
-		baseCost: 249.00,
-	},
-	{
-		model: RX Series,
-		type: 570,
-		memory: 8GB,
-		power: 145,
-		ethHash: 29.7,
-		baseCost: 209.00,
-	},
-	{
-		model: RX Series,
-		type: 570,
-		memory: 4GB,
-		power: 145,
-		ethHash: 29.4,
-		baseCost: 189.00,
-	},
-	{
-		model: RX Series,
-		type: 480,
-		memory: 8GB,
-		power: 150,
-		ethHash: 31.4,
-		baseCost: 249.00,
-	},
-	{
-		model: RX Series,
-		type: 480,
-		memory: 4GB,
-		power: 150,
-		ethHash: 30.2,
-		baseCost: 229.00,
-	},
-	{
-		model: RX Series,
-		type: 470,
-		memory: 8GB,
-		power: 125,
-		ethHash: 28.5,
-		baseCost: 209.00,
-	},
-	{
-		model: RX Series,
-		type: 470,
-		memory: 4GB,
-		power: 125,
-		ethHash: 27.4,
-		baseCost: 189.00,
-	},
-	{
-		model: RX Series,
-		type: 460,
-		memory: 4GB,
-		power: 90,
-		ethHash: 11.7,
-		baseCost: 139.00,
-	},
-	{
-		model: Pro Duo,
-		type: Pro,
-		memory: 8GB HBM,
-		power: 375,
-		ethHash: 62.117,
-		baseCost: 899.00,
-	},
-	{
-		model: R9 Series,
-		type: Nano,
-		memory: 8GB,
-		power: 175,
-		ethHash: 31.6,
-		baseCost: 349.00,
-	},
-	{
-		model: R9 Series,
-		type: Fury,
-		memory: 8GB,
-		power: 185,
-		ethHash: 30.6,
-		baseCost: 399.00,
-	},
-	{
-		model: R9 Series,
-		type: Fury X,
-		memory: 8GB,
-		power: 185,
-		ethHash: 31.5,
-		baseCost: 429.00,
-	},
-	{
-		model: R9 Series,
-		type: 390x5,
-		memory: 16GB,
-		power: 525,
-		ethHash: 63,
-		baseCost: 699.00,
-	},
-	{
-		model: R9 Series,
-		type: 390x,
-		memory: 8GB,
-		power: 325,
-		ethHash: 34,
-		baseCost: 329.00,
-	},
-	{
-		model: R9 Series,
-		type: 390,
-		memory: 8GB,
-		power: 300,
-		ethHash: 32.8,
-		baseCost: 299.00,
-	},
-	{
-		model: R9 Series,
-		type: 390,
-		memory: 4GB,
-		power: 280,
-		ethHash: 31,
-		baseCost: 269.00,
-	},
-	{
-		model: R9 Series,
-		type: 380x,
-		memory: 4GB,
-		power: 220,
-		ethHash: 20.4,
-		baseCost: 185.00,
-	},
-	{
-		model: R9 Series,
-		type: 380,
-		memory: 4GB,
-		power: 215,
-		ethHash: 19.6,
-		baseCost: 179.00,
-	},
-	{
-		model: R7 Series,
-		type: 370x,
-		memory: 4GB,
-		power: 205,
-		ethHash: 12.6,
-		baseCost: 169.00,
-	},
-	{
-		model: R7 Series,
-		type: 370,
-		memory: 4GB,
-		power: 205,
-		ethHash: 11.9,
-		baseCost: 149.00,
-	},
-	{
-		model: R9 Series,
-		type: 295x2,
-		memory: 8GB,
-		power: 550,
-		ethHash: 67.4,
-		baseCost: 399.00,
-	},
-	{
-		model: R9 Series,
-		type: 290x,
-		memory: 4GB,
-		power: 400,
-		ethHash: 29,
-		baseCost: 229.00,
-	},
-	{
-		model: R9 Series,
-		type: 290,
-		memory: 4GB,
-		power: 375,
-		ethHash: 28.5,
-		baseCost: 188.00,
-	},
-	{
-		model: R9 Series,
-		type: 280x,
-		memory: 3GB,
-		power: 300,
-		ethHash: 21.3,
-		baseCost: 139.00,
-	}
-]}
+{"data": [
+		{
+		"model": "RX Series",
+		"type": "580",
+		"memory": "8GB",
+		"power": 170,
+		"ethHash": 31.2,
+		"baseCost": 269.00
+		},
+		{
+		"model": "RX Series",
+		"type": "580",
+		"memory": "4GB",
+		"power": 170,
+		"ethHash": 30.4,
+		"baseCost": 249.00
+		},
+		{
+		"model": "RX Series",
+		"type": "570",
+		"memory": "8GB",
+		"power": 145,
+		"ethHash": 29.7,
+		"baseCost": 209.00
+		},
+		{
+		"model": "RX Series",
+		"type": "570",
+		"memory": "4GB",
+		"power": 145,
+		"ethHash": 29.4,
+		"baseCost": 189.00
+		},
+		{
+		"model": "RX Series",
+		"type": "480",
+		"memory": "8GB",
+		"power": 150,
+		"ethHash": 31.4,
+		"baseCost": 249.00
+		},
+		{
+		"model": "RX Series",
+		"type": "480",
+		"memory": "4GB",
+		"power": 150,
+		"ethHash": 30.2,
+		"baseCost": 229.00
+		},
+		{
+		"model": "RX Series",
+		"type": "470",
+		"memory": "8GB",
+		"power": 125,
+		"ethHash": 28.5,
+		"baseCost": 209.00
+		},
+		{
+		"model": "RX Series",
+		"type": "470",
+		"memory": "4GB",
+		"power": 125,
+		"ethHash": 27.4,
+		"baseCost": 189.00
+		},
+		{
+		"model": "RX Series",
+		"type": "460",
+		"memory": "4GB",
+		"power": 90,
+		"ethHash": 11.7,
+		"baseCost": 139.00
+		},
+		{
+		"model": "Pro Duo",
+		"type": "Pro",
+		"memory": "8GB HBM",
+		"power": 375,
+		"ethHash": 62.117,
+		"baseCost": 899.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "Nano",
+		"memory": "8GB",
+		"power": 175,
+		"ethHash": 31.6,
+		"baseCost": 349.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "Fury",
+		"memory": "8GB",
+		"power": 185,
+		"ethHash": 30.6,
+		"baseCost": 399.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "Fury X",
+		"memory": "8GB",
+		"power": 185,
+		"ethHash": 31.5,
+		"baseCost": 429.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "390x5",
+		"memory": "16GB",
+		"power": 525,
+		"ethHash": 63,
+		"baseCost": 699.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "390x",
+		"memory": "8GB",
+		"power": 325,
+		"ethHash": 34,
+		"baseCost": 329.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "390",
+		"memory": "8GB",
+		"power": 300,
+		"ethHash": 32.8,
+		"baseCost": 299.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "390",
+		"memory": "4GB",
+		"power": 280,
+		"ethHash": 31,
+		"baseCost": 269.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "380x",
+		"memory": "4GB",
+		"power": 220,
+		"ethHash": 20.4,
+		"baseCost": 185.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "380",
+		"memory": "4GB",
+		"power": 215,
+		"ethHash": 19.6,
+		"baseCost": 179.00
+		},
+		{
+		"model": "R7 Series",
+		"type": "370x",
+		"memory": "4GB",
+		"power": 205,
+		"ethHash": 12.6,
+		"baseCost": 169.00
+		},
+		{
+		"model": "R7 Series",
+		"type": "370",
+		"memory": "4GB",
+		"power": 205,
+		"ethHash": 11.9,
+		"baseCost": 149.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "295x2",
+		"memory": "8GB",
+		"power": 550,
+		"ethHash": 67.4,
+		"baseCost": 399.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "290x",
+		"memory": "4GB",
+		"power": 400,
+		"ethHash": 29,
+		"baseCost": 229.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "290",
+		"memory": "4GB",
+		"power": 375,
+		"ethHash": 28.5,
+		"baseCost": 188.00
+		},
+		{
+		"model": "R9 Series",
+		"type": "280x",
+		"memory": "3GB",
+		"power": 300,
+		"ethHash": 21.3,
+		"baseCost": 139.00
+		}
+	]
+}

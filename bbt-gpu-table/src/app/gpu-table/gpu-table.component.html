@@ -1,3 +1,12 @@
-<p>
-  gpu-table works!
-</p>
+<p-dataTable [value]="gpus | async" sortField="ethHash" [sortOrder]="-1">
+  <p-column field="model" header="Model" sortable="true"></p-column>
+  <p-column field="type" header="Type" sortable="true"></p-column>
+  <p-column field="memory" header="Memory" sortable="true"></p-column>
+  <p-column field="power" header="Power" sortable="true"></p-column>
+  <p-column field="ethHash" header="Eth MH/s" sortable="true"></p-column>
+  <p-column field="baseCost" header="Base Cost" sortable="true">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.baseCost | currency:'USD':true}}
+    </ng-template>
+  </p-column>
+</p-dataTable>
