@@ -11,7 +11,7 @@ import 'rxjs/add/operator/do';
 @Component({
   selector: 'bbt-gpu-table',
   templateUrl: './gpu-table.component.html',
-  styleUrls: ['./gpu-table.component.css']
+  styleUrls: ['./gpu-table.component.scss']
 })
 export class GpuTableComponent implements OnInit {
 
@@ -23,6 +23,7 @@ export class GpuTableComponent implements OnInit {
     this.gpus = this.gpuService.getGpuInfo().do(gpus => {
 
     });
+    this.gpus
   }
 
 }

@@ -13,7 +13,8 @@ export class GpuService {
   constructor(private http: Http) { }
 
   getGpuInfo():Observable<Gpu[]> {
-    return this.http.get('https://cdn.shopify.com/s/files/1/2347/6843/files/gpu-data.json?13588704022768495970')
+    //return this.http.get('https://cdn.shopify.com/s/files/1/2347/6843/files/gpu-data.json?13588704022768495970')
+    return this.http.get('./assets/gpu-data.json')
       .map(res => <Gpu[]> res.json().data);
   }
 

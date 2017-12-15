@@ -1,0 +1,85 @@
+<div class="ui-g">
+  <div class="ui-g-4 ui-fluid">
+    <div class="ui-inputgroup">
+      <span class="ui-inputgroup-addon">Current Bitcoin Price</span>
+      <input type="text" pInputText placeholder="">
+    </div>
+    <div class="ui-inputgroup">
+      <span class="ui-inputgroup-addon">Amount Invested</span>
+      <input type="text" pInputText placeholder="">
+    </div>
+    <div class="ui-inputgroup">
+      <span class="ui-inputgroup-addon">Frequency</span>
+      <p-dropdown autoWidth=false></p-dropdown>
+    </div>
+    <div class="ui-inputgroup">
+      <span class="ui-inputgroup-addon">Day of Week (If Weekly)</span>
+      <input type="text" pInputText placeholder="">
+    </div>
+  </div>
+
+  <div class="ui-g-3 ui-fluid">
+    <table>
+      <tr>
+        <td>Current Bitcoin Price</td>
+      </tr>
+      <tr>
+        <td>Current Bitcoin Price</td>
+      </tr>
+      <tr>
+        <td>Current Bitcoin Price</td>
+      </tr>
+      <tr>
+        <td>Current Bitcoin Price</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<p-dataTable *ngIf="!loading; else loadingDataTemplate" [value]="historicalData | async" sortField="datestamp" [sortOrder]="-1" sortable="false">
+  <p-column field="datestamp" header="Date">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.datestamp | date:'fullDate'}}
+    </ng-template>
+  </p-column>
+  <p-column field="open" header="Open">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.open | currency:'USD':true}}
+    </ng-template>
+  </p-column>
+  <p-column field="close" header="Close">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.close | currency:'USD':true}}
+    </ng-template>
+  </p-column>
+  <p-column field="high" header="High">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.high | currency:'USD':true}}
+    </ng-template>
+  </p-column>
+  <p-column field="low" header="Low">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.low | currency:'USD':true}}
+    </ng-template>
+  </p-column>
+  <p-column field="change" header="Change %">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.change | percent}}
+    </ng-template>
+  </p-column>
+  <p-column field="datestamp" header="Day">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.datestamp | date:'EEEE'}}
+    </ng-template>
+  </p-column>
+  <p-column field="isBiweekly" header="Bi-Weekly"></p-column>
+  <p-column field="purchase" header="BTC Purchase"></p-column>
+  <p-column field="amount" header="Amount">
+    <ng-template let-row="rowData" pTemplate type="body">
+      {{row.amount | currency:'USD':true}}
+    </ng-template>
+  </p-column>
+</p-dataTable>
+<ng-template #loadingDataTemplate>
+  Loading Data!
+</ng-template>
